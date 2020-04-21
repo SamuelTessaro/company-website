@@ -1,0 +1,68 @@
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container_nivel {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.niveis_classe {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.organi {
+  width: 100%;
+  background-color: #b71c1c ;
+  animation-name: conf_animation;
+  animation-duration: 20s;
+}
+
+.comodidade {
+  width: 100%;
+  background-color: #b71c1c ;
+  animation-name: fidel_animation;
+  animation-duration: 10s;
+}
+
+
+.satis {
+  width: 100%;
+  background-color: #b71c1c ;
+  animation-name: sociali_animation;
+  animation-duration: 30s;
+}
+
+
+.seguro {
+  width: 100%;
+  background-color: #b71c1c ;
+  animation-name: inov_animation;
+  animation-duration: 5s;
+}
+
+
+
+
+@keyframes conf_animation {
+    0%   {width: 0%;}
+    100% {width: 100%;}
+}
+
+@keyframes fidel_animation {
+    0%   {width: 0%;}
+    100% {width: 100%;}
+}
+
+@keyframes sociali_animation {
+    0%   {width: 0%;}
+    100% {width: 100%;}
+}
+
+@keyframes inov_animation {
+    0%   {width: 0%;}
+    100% {width: 100%;}
+}

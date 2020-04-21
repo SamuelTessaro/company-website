@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MyBusiness</title>
+    <!--icones do google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--importando materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!--otimizando para dispositivos moveis-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS pessoal-->
+    <link rel="stylesheet" href="css/texto.css">
+    <link rel="stylesheet" href="css/imagem.css">
+    <link rel="stylesheet" href="css/zoom.css">
+    <link rel="stylesheet" href="css/barra_rolagem.css">
+    <link rel="stylesheet" href="css/niveis.css">
+    <link rel="stylesheet" href="css/price.css">
+    <link rel="stylesheet" href="css/equipe.css">
+    <link rel="stylesheet" href="css/midias.css">
+
+    <!--Referência base: https://materializecss.com/templates/parallax-template/preview.html-->
+
+
+
+
+</head>
+
+<body class="flow-text">
+
+    <!--importando js-->
+    <script type="text/javascript" src="js/slide.js"></script>
+    <script type="text/javascript" src="js/digitado.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+    <div class="corpo" id="big_bang">
+
+        <div class="cabecalho">
+            <nav class="nav-extended red darken-4">
+                <div class="nav-wrapper">
+                    <a href="index.html" class="brand-logo center">MyBusiness</a>
+                </div>
+                <div class="nav-content">
+                    <ul class="tabs tabs-transparent tabs-fixed-width">
+                        <li class="tab"><a class="active" href="#ini">About</a></li>
+                        <li class="tab"><a href="#plan">Plans</a></li>
+                        <li class="tab"><a href="#equi">Team</a></li>
+                        <li class="tab"><a href="#cont">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div id="ini" class="col s12">
+                <div class="cabeca_inicio">
+                    <h3 class="center-align texto_vermelho">Welcome!</h3>
+                </div>
+
+                <div class="row center-align ">
+                    <div class="senhores col s12 m6">
+                        <img class="senhores_img" src="img/senhores.png" alt="">
+                    </div>
+                    <blockquote class="col s12 m6 texto_vermelho">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id augue quis massa ultrices tempus. Nullam ac dolor a libero facilisis pellentesque. Nulla viverra at elit id cursus. Praesent sodales dui ipsum, vitae ullamcorper libero
+                            blandit non. Mauris consequat eu ex vitae ultricies. Integer sem diam, varius in fermentum a, auctor et quam. Suspendisse efficitur malesuada metus, nec facilisis lectus porttitor sit amet. tincidunt ex tempus.</p>
+                    </blockquote>
+                </div>
+
+                <div class="row center-align col s12 red darken-4">
+                    <div class="col s12 m6">
+                        <br><img class="senhores_img zoom" src="img/cel1.png" alt="">
+                    </div>
+                    <div class="col s12 m6">
+                        <br><img class="senhores_img zoom" src="img/cel2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="niveis center-align texto_vermelho">
+                    <h4>Leverage your negotiations.!</h4>
+                    <p>Organization</p><i class="large material-icons">restaurant_menu</i>
+                    <div class="container_nivel">
+                        <div class="niveis_classe organi">100%</div>
+                    </div>
+
+                    <p>Convenience</p><i class="large material-icons">local_cafe</i>
+                    <div class="container_nivel">
+                        <div class="niveis_classe comodidade">100%</div>
+                    </div>
+
+                    <p>Satisfaction</p><i class="large material-icons">beach_access</i>
+                    <div class="container_nivel">
+                        <div class="niveis_classe satis">100%</div>
+                    </div>
+
+                    <p>Safety</p><i class="large material-icons">lock</i>
+                    <div class="container_nivel">
+                        <div class="niveis_classe seguro">100%</div>
+                    </div>
+                    <br>
+                </div>
+
+                <div class="row center-align  red darken-4 texto_branco">
+
+                    <div class="col s12 l4">
+                        <i class="large material-icons">people</i>
+                        <h4>Reason for business</h4>
+                        <p>You can talk about how the services provided will help your potential customer.</p>
+                    </div>
+                    <div class="col s12 l4">
+                        <i class="large material-icons">mood</i>
+                        <h4>Happy reason</h4>
+                        <p>Talk about how simple and easy it is to hire and use the services.</p>
+                    </div>
+                    <div class="col s12 l4">
+                        <i class="large material-icons">insert_chart</i>
+                        <h4>Smart</h4>
+                        <p>Talk about the intelligence behind the services.</p>
+                    </div>
+
+                </div>
+
+                <div class="row center-align texto_vermelho">
+                    <div class="col s12 m12 l4">
+                        <h4 id="disponiv">Lorem ipsum dolor sit amet ipsum pol piu?</h4>
+                        <p>
+                            Consectetur adipiscing elit. In id augue quis massa ultrices tempus. Nullam ac dolor a libero facilisis pellentesque. Nulla viverra at elit id cursus. Praesent sodales dui ipsum, vitae ullamcorper libero blandit non.
+                        </p>
+                    </div>
+                    <div class="col s12 m12 l4">
+                        <h4>Praesent facilisis molestie commodo?</h4>
+                        <p>
+                            ulla consectetur massa in turpis feugiat laoreet. Mauris consequat eu ex vitae ultricies. Integer sem diam, varius in fermentum a, auctor et quam. Suspendisse efficitur malesuada metus, nec facilisis lectus porttitor sit amet.
+                        </p>
+                    </div>
+                    <div class="col s12 m12 l4">
+                        <h4>Aliquam non mauris facilisis, tristique lectus a, dapibus leo?</h4>
+                        <p>
+                            Mauris sit amet hendrerit tellus, ut consectetur massa. Cras nec felis id libero luctus tincidunt a sit amet urna. Proin porta libero non nunc consequat, non facilisis ligula dictum. Duis aliquam diam purus, vel sodales lorem bibendum sit amet. Nunc a
+                            arcu mollis leo vehicula fermentum ut quis nibh.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq_acesse texto_vermelho center-align">
+                    <br>
+                    <p>For more questions <a class="" href="#cont" target="_blank">please contact</a></p>
+                </div>
+
+
+
+            </div>
+
+
+            <div id="plan" class="col s12">
+                <div class="planos_cabeca texto_vermelho center-align">
+                    <h3>Unmatched prices</h3>
+                    <br>
+                </div>
+                <div class="tabela_plano_basico">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="texto_branco red darken-4 center-align">Basic</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td class="center-align red darken-3 texto_branco">$15/month or $125/year</td>
+                            </tr>
+                            <tr>
+                                <td class="center-align">Lorem ipsum</td>
+                            </tr>
+                            <tr>
+                                <td class="center-align">Dolor sit amet</td>
+                            </tr>
+                            <tr>
+                                <td class="center-align">Consectetur adipiscing elit</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <br>
+
+                <div class="tabela_plano_pro">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="texto_branco grey darken-3 center-align">Pro (temporarily unavailable)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="center-align grey darken-2 texto_branco">$30/month or $250/year</td>
+                            </tr>
+                            <tr>
+                                <td class="center-align">Lorem ipsum</td>
+                            </tr>
+                            <tr>
+                                <td class="center-align">Dolor sit amet</td>
+                            </tr>
+                            <tr>
+                                <td class="center-align">Consectetur adipiscing elit</td>
+                            </tr>
+                            <tr>
+                                <td class="center-align">Mauris sit amet hendrerit tellus</td>
+                            </tr>
+                            <tr>
+                                <td class="center-align">Cras nec felis id libero luctus</td>
+                            </tr>
+                            <tr>
+                                <td class="center-align">Maecenas eget orci eu</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <br>
+
+                <div class="tabela_plano_avancado">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="texto_branco grey darken-3 center-align">Advanced (temporarily unavailable)</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td class="center-align grey darken-2 texto_branco">$60/month or R$500/year</td>
+                            </tr>
+                            <tr>
+                                <td class="center-align">Lorem ipsum</td>
+                            </tr>
+                            <tr>
+                                <td class="center-align">Dolor sit amet</td>
+                            </tr>
+                            <tr>
+                                <td class="center-align">Consectetur adipiscing elit</td>
+                            </tr>
+                            <tr>
+                                <td class="center-align">Mauris sit amet hendrerit tellus</td>
+                            </tr>
+                            <tr>
+                                <td class="center-align">Cras nec felis id libero luctus </td>
+                            </tr>
+                            <tr>
+                                <td class="center-align">Maecenas eget orci eu</td>
+                            </tr>
+                            <tr>
+                                <td class="center-align">Vivamus dictum sed neque quis tincidunt</td>
+                            </tr>
+                            <tr>
+                                <td class="center-align">Curabitur sit amet porta nunc</td>
+                            </tr>
+                            <tr>
+                                <td class="center-align">Etiam et lectus vel purus viverra elementum eu id turpis</td>
+                            </tr>
+                            <tr>
+                                <td class="center-align">Donec posuere hendrerit laoreet</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br><br>
+                <p class="center-align">Would you like a personalized plan? <a class="" href="#cont" target="_blank">Contact us!</a></p>
+                <br>
+
+            </div>
+
+
+            <div id="equi" class="col s12">
+                <div class="split left texto_branco">
+                    <div class="centered">
+                        <!--Avatar fonte: https://blackrockdigital.github.io/startbootstrap-freelancer/assets/img/avataaars.svg-->
+                        <img class="zoom" src="img/avataaars.svg" alt="Avatar woman">
+                        <h2>John Doe</h2>
+                        <p>Back-end developer.</p>
+                        <p>Something.</p>
+                        <p>email@email.com</p>
+                    </div>
+                </div>
+
+                <div class="split right texto_branco">
+                    <div class="centered">
+                        <img class="zoom" src="img/avataaars.svg" alt="Avatar man">
+                        <h2>Fulano Dias</h2>
+                        <p>Front-end developer.</p>
+                        <p>Anything.</p>
+                        <p>email@email.com</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="cont" class="col s12">
+                <div class="contato_cabeca texto_vermelho center-align">
+                    <h3 class="">
+                        Contact!
+                    </h3>
+                    <p>Contact us. Make your free quote.</p>
+                </div>
+                <div class="social row center-align">
+                    <div class="whats col s12">
+                        <h4 class="center-align">
+                            WhatsApp
+                        </h4>
+                        <img src="img/whats.png" alt="">
+                        <h5>
+                            9999-9999
+                        </h5>
+                    </div>
+
+                    <div class="facebook col s12">
+                        <h4 class="center-align">
+                            Facebook
+                        </h4>
+                        <img src="img/facebook.png" alt="">
+                        <h5>
+                            <a href="https://www.facebook.com/" target="_blanck">www.facebook.com/</a>
+                        </h5>
+                    </div>
+                    <br><br>
+                </div>
+                <br>
+                <div class="ansiedade texto_vermelho center-align">
+                    <h4>We are waiting for you!</h4>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+<footer class="page-footer red darken-4">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Text</h5>
+                <p class="">“If you can't explain it to a six year old, you don't understand it yourself.” – Albert Einstein</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Menu</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="#big_bang">Back to the top</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#equi" target="_blank">Meet the team</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#cont" target="_blank">Contact information</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            MyBusiness © 2018
+        </div>
+    </div>
+</footer>
+
+</html>

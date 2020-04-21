@@ -1,0 +1,14 @@
+.whats{
+  color: #34af23;
+}
+
+.facebook{
+  color: #3b5998;
+}
+
+.social img {
+  width: 64px;
+  height: 64px;
+}
+
+.social a { color: inherit; }
