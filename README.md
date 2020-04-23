@@ -2,6 +2,11 @@
 
 Example site of a company that provides technology services with monthly or annual prices.
 
+## Site preview
+
+You can view the site: [here](https://samueltessaro.github.io/company-website/index.html).
+
+
 ## Built With
 
 * HTML and CSS.
