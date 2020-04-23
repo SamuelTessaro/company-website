@@ -4,7 +4,7 @@ Example site of a company that provides technology services with monthly or annu
 
 ## Site preview
 
-You can view the site: [here](https://samueltessaro.github.io/company-website/index.html).
+You can view the site [here](https://samueltessaro.github.io/company-website/index.html).
 
 
 ## Built With
