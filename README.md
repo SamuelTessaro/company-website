@@ -1,4 +1,4 @@
-# Company website 
+# Company Website 
 
 Example site of a company that provides technology services with monthly or annual prices.
 
