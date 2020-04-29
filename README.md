@@ -10,7 +10,7 @@ You can view the site [here](https://samueltessaro.github.io/company-website/ind
 ## Built With
 
 * HTML and CSS.
-* [Materialize CSS](https://materializecss.com/about.html)
+* [Materialize CSS](https://materializecss.com/about.html).
 
 ## Authors
 
