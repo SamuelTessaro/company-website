@@ -4,7 +4,7 @@ Example site of a company that provides technology services with monthly or annu
 
 ## Site preview
 
-You can view the site [here](#).
+You can view the site [here](https://samueltessaro.github.io/company-website/index.html).
 
 
 ## Built With
@@ -20,4 +20,3 @@ You can view the site [here](#).
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
